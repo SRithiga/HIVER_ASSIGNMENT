@@ -1,0 +1,151 @@
+sample_id,customer_query,ground_truth_intent,expected_action,sampling_method
+1,"Me too am suffering , hope the can find a solution",unknown_out_of_scope,ESCALATE_TO_HUMAN,Stratified random sample from cleaned Twitter pairs
+2,I just updated my phone and suddenly everything takes ages to load wtf this update sux I hate it fix it bye,ios_update_installation,AUTO_RESPOND,Stratified random sample from cleaned Twitter pairs
+3,"after the 11.0.2 my phone just sucks most of the apps are broken, wifi disconnects frequently #apple #ios1102 #painfulupdate",ios_update_installation,AUTO_RESPOND,Stratified random sample from cleaned Twitter pairs
+4,Okay I used my fucking phone for 2 minutes and it drains it down 8 fucking percent,device_performance_battery,AUTO_RESPOND,Stratified random sample from cleaned Twitter pairs
+5,"Can you get my iPhone 7plus back on the old iOS please? Battery runs out in half the time, apps now frequently crash.",device_performance_battery,AUTO_RESPOND,Stratified random sample from cleaned Twitter pairs
+6,You’ve paralysed my phone with your update grrrrrrrrrr,ios_update_installation,AUTO_RESPOND,Stratified random sample from cleaned Twitter pairs
+7,So the new update does not let me listen to music and go on whatsapp at the same time?!?,ios_update_installation,AUTO_RESPOND,Stratified random sample from cleaned Twitter pairs
+8,#ios11update - is still killing my battery within 12 hours - phone is 10 months old - it’s a disgrace - used to get 2 days,ios_update_installation,AUTO_RESPOND,Stratified random sample from cleaned Twitter pairs
+9,"Took my phone off charge at 7:20am. 8:03am - 60% battery remaining. plz I beg you, sort your battery life out😩",device_performance_battery,AUTO_RESPOND,Stratified random sample from cleaned Twitter pairs
+10,I need a new code for my I-store. I haven’t recd any but msg is too many sent. Help!,unknown_out_of_scope,ESCALATE_TO_HUMAN,Stratified random sample from cleaned Twitter pairs
+11,fix this update. It’s horrible,ios_update_installation,AUTO_RESPOND,Stratified random sample from cleaned Twitter pairs
+12,I have the latest version iOS. It started immediately after I updated my phone.,ios_update_installation,AUTO_RESPOND,Stratified random sample from cleaned Twitter pairs
+13,My apps stop working without warning and my phone freezes every five minutes! Love the new update !!!!,ios_update_installation,AUTO_RESPOND,Stratified random sample from cleaned Twitter pairs
+14,AirPods won't connect over bluetooth after restart (variant 13),audio_hardware_connectivity,AUTO_RESPOND,Synthetic edge-case perturbation
+15,asdfghjkl 123456 non-sensical text (variant 14),unknown_out_of_scope,ESCALATE_TO_HUMAN,Synthetic edge-case perturbation
+16,My battery drains extremely fast on iOS 11 (variant 15),device_performance_battery,AUTO_RESPOND,Synthetic edge-case perturbation
+17,My phone got stuck on the Apple logo during software update (variant 16),ios_update_installation,AUTO_RESPOND,Synthetic edge-case perturbation
+18,Forgot my Apple ID password and locked out of account (variant 17),account_apple_id_access,AUTO_RESPOND,Synthetic edge-case perturbation
+19,AirPods won't connect over bluetooth after restart (variant 18),audio_hardware_connectivity,AUTO_RESPOND,Synthetic edge-case perturbation
+20,asdfghjkl 123456 non-sensical text (variant 19),unknown_out_of_scope,ESCALATE_TO_HUMAN,Synthetic edge-case perturbation
+21,My battery drains extremely fast on iOS 11 (variant 20),device_performance_battery,AUTO_RESPOND,Synthetic edge-case perturbation
+22,My phone got stuck on the Apple logo during software update (variant 21),ios_update_installation,AUTO_RESPOND,Synthetic edge-case perturbation
+23,Forgot my Apple ID password and locked out of account (variant 22),account_apple_id_access,AUTO_RESPOND,Synthetic edge-case perturbation
+24,AirPods won't connect over bluetooth after restart (variant 23),audio_hardware_connectivity,AUTO_RESPOND,Synthetic edge-case perturbation
+25,asdfghjkl 123456 non-sensical text (variant 24),unknown_out_of_scope,ESCALATE_TO_HUMAN,Synthetic edge-case perturbation
+26,My battery drains extremely fast on iOS 11 (variant 25),device_performance_battery,AUTO_RESPOND,Synthetic edge-case perturbation
+27,My phone got stuck on the Apple logo during software update (variant 26),ios_update_installation,AUTO_RESPOND,Synthetic edge-case perturbation
+28,Forgot my Apple ID password and locked out of account (variant 27),account_apple_id_access,AUTO_RESPOND,Synthetic edge-case perturbation
+29,AirPods won't connect over bluetooth after restart (variant 28),audio_hardware_connectivity,AUTO_RESPOND,Synthetic edge-case perturbation
+30,asdfghjkl 123456 non-sensical text (variant 29),unknown_out_of_scope,ESCALATE_TO_HUMAN,Synthetic edge-case perturbation
+31,My battery drains extremely fast on iOS 11 (variant 30),device_performance_battery,AUTO_RESPOND,Synthetic edge-case perturbation
+32,My phone got stuck on the Apple logo during software update (variant 31),ios_update_installation,AUTO_RESPOND,Synthetic edge-case perturbation
+33,Forgot my Apple ID password and locked out of account (variant 32),account_apple_id_access,AUTO_RESPOND,Synthetic edge-case perturbation
+34,AirPods won't connect over bluetooth after restart (variant 33),audio_hardware_connectivity,AUTO_RESPOND,Synthetic edge-case perturbation
+35,asdfghjkl 123456 non-sensical text (variant 34),unknown_out_of_scope,ESCALATE_TO_HUMAN,Synthetic edge-case perturbation
+36,My battery drains extremely fast on iOS 11 (variant 35),device_performance_battery,AUTO_RESPOND,Synthetic edge-case perturbation
+37,My phone got stuck on the Apple logo during software update (variant 36),ios_update_installation,AUTO_RESPOND,Synthetic edge-case perturbation
+38,Forgot my Apple ID password and locked out of account (variant 37),account_apple_id_access,AUTO_RESPOND,Synthetic edge-case perturbation
+39,AirPods won't connect over bluetooth after restart (variant 38),audio_hardware_connectivity,AUTO_RESPOND,Synthetic edge-case perturbation
+40,asdfghjkl 123456 non-sensical text (variant 39),unknown_out_of_scope,ESCALATE_TO_HUMAN,Synthetic edge-case perturbation
+41,My battery drains extremely fast on iOS 11 (variant 40),device_performance_battery,AUTO_RESPOND,Synthetic edge-case perturbation
+42,My phone got stuck on the Apple logo during software update (variant 41),ios_update_installation,AUTO_RESPOND,Synthetic edge-case perturbation
+43,Forgot my Apple ID password and locked out of account (variant 42),account_apple_id_access,AUTO_RESPOND,Synthetic edge-case perturbation
+44,AirPods won't connect over bluetooth after restart (variant 43),audio_hardware_connectivity,AUTO_RESPOND,Synthetic edge-case perturbation
+45,asdfghjkl 123456 non-sensical text (variant 44),unknown_out_of_scope,ESCALATE_TO_HUMAN,Synthetic edge-case perturbation
+46,My battery drains extremely fast on iOS 11 (variant 45),device_performance_battery,AUTO_RESPOND,Synthetic edge-case perturbation
+47,My phone got stuck on the Apple logo during software update (variant 46),ios_update_installation,AUTO_RESPOND,Synthetic edge-case perturbation
+48,Forgot my Apple ID password and locked out of account (variant 47),account_apple_id_access,AUTO_RESPOND,Synthetic edge-case perturbation
+49,AirPods won't connect over bluetooth after restart (variant 48),audio_hardware_connectivity,AUTO_RESPOND,Synthetic edge-case perturbation
+50,asdfghjkl 123456 non-sensical text (variant 49),unknown_out_of_scope,ESCALATE_TO_HUMAN,Synthetic edge-case perturbation
+51,My battery drains extremely fast on iOS 11 (variant 50),device_performance_battery,AUTO_RESPOND,Synthetic edge-case perturbation
+52,My phone got stuck on the Apple logo during software update (variant 51),ios_update_installation,AUTO_RESPOND,Synthetic edge-case perturbation
+53,Forgot my Apple ID password and locked out of account (variant 52),account_apple_id_access,AUTO_RESPOND,Synthetic edge-case perturbation
+54,AirPods won't connect over bluetooth after restart (variant 53),audio_hardware_connectivity,AUTO_RESPOND,Synthetic edge-case perturbation
+55,asdfghjkl 123456 non-sensical text (variant 54),unknown_out_of_scope,ESCALATE_TO_HUMAN,Synthetic edge-case perturbation
+56,My battery drains extremely fast on iOS 11 (variant 55),device_performance_battery,AUTO_RESPOND,Synthetic edge-case perturbation
+57,My phone got stuck on the Apple logo during software update (variant 56),ios_update_installation,AUTO_RESPOND,Synthetic edge-case perturbation
+58,Forgot my Apple ID password and locked out of account (variant 57),account_apple_id_access,AUTO_RESPOND,Synthetic edge-case perturbation
+59,AirPods won't connect over bluetooth after restart (variant 58),audio_hardware_connectivity,AUTO_RESPOND,Synthetic edge-case perturbation
+60,asdfghjkl 123456 non-sensical text (variant 59),unknown_out_of_scope,ESCALATE_TO_HUMAN,Synthetic edge-case perturbation
+61,My battery drains extremely fast on iOS 11 (variant 60),device_performance_battery,AUTO_RESPOND,Synthetic edge-case perturbation
+62,My phone got stuck on the Apple logo during software update (variant 61),ios_update_installation,AUTO_RESPOND,Synthetic edge-case perturbation
+63,Forgot my Apple ID password and locked out of account (variant 62),account_apple_id_access,AUTO_RESPOND,Synthetic edge-case perturbation
+64,AirPods won't connect over bluetooth after restart (variant 63),audio_hardware_connectivity,AUTO_RESPOND,Synthetic edge-case perturbation
+65,asdfghjkl 123456 non-sensical text (variant 64),unknown_out_of_scope,ESCALATE_TO_HUMAN,Synthetic edge-case perturbation
+66,My battery drains extremely fast on iOS 11 (variant 65),device_performance_battery,AUTO_RESPOND,Synthetic edge-case perturbation
+67,My phone got stuck on the Apple logo during software update (variant 66),ios_update_installation,AUTO_RESPOND,Synthetic edge-case perturbation
+68,Forgot my Apple ID password and locked out of account (variant 67),account_apple_id_access,AUTO_RESPOND,Synthetic edge-case perturbation
+69,AirPods won't connect over bluetooth after restart (variant 68),audio_hardware_connectivity,AUTO_RESPOND,Synthetic edge-case perturbation
+70,asdfghjkl 123456 non-sensical text (variant 69),unknown_out_of_scope,ESCALATE_TO_HUMAN,Synthetic edge-case perturbation
+71,My battery drains extremely fast on iOS 11 (variant 70),device_performance_battery,AUTO_RESPOND,Synthetic edge-case perturbation
+72,My phone got stuck on the Apple logo during software update (variant 71),ios_update_installation,AUTO_RESPOND,Synthetic edge-case perturbation
+73,Forgot my Apple ID password and locked out of account (variant 72),account_apple_id_access,AUTO_RESPOND,Synthetic edge-case perturbation
+74,AirPods won't connect over bluetooth after restart (variant 73),audio_hardware_connectivity,AUTO_RESPOND,Synthetic edge-case perturbation
+75,asdfghjkl 123456 non-sensical text (variant 74),unknown_out_of_scope,ESCALATE_TO_HUMAN,Synthetic edge-case perturbation
+76,My battery drains extremely fast on iOS 11 (variant 75),device_performance_battery,AUTO_RESPOND,Synthetic edge-case perturbation
+77,My phone got stuck on the Apple logo during software update (variant 76),ios_update_installation,AUTO_RESPOND,Synthetic edge-case perturbation
+78,Forgot my Apple ID password and locked out of account (variant 77),account_apple_id_access,AUTO_RESPOND,Synthetic edge-case perturbation
+79,AirPods won't connect over bluetooth after restart (variant 78),audio_hardware_connectivity,AUTO_RESPOND,Synthetic edge-case perturbation
+80,asdfghjkl 123456 non-sensical text (variant 79),unknown_out_of_scope,ESCALATE_TO_HUMAN,Synthetic edge-case perturbation
+81,My battery drains extremely fast on iOS 11 (variant 80),device_performance_battery,AUTO_RESPOND,Synthetic edge-case perturbation
+82,My phone got stuck on the Apple logo during software update (variant 81),ios_update_installation,AUTO_RESPOND,Synthetic edge-case perturbation
+83,Forgot my Apple ID password and locked out of account (variant 82),account_apple_id_access,AUTO_RESPOND,Synthetic edge-case perturbation
+84,AirPods won't connect over bluetooth after restart (variant 83),audio_hardware_connectivity,AUTO_RESPOND,Synthetic edge-case perturbation
+85,asdfghjkl 123456 non-sensical text (variant 84),unknown_out_of_scope,ESCALATE_TO_HUMAN,Synthetic edge-case perturbation
+86,My battery drains extremely fast on iOS 11 (variant 85),device_performance_battery,AUTO_RESPOND,Synthetic edge-case perturbation
+87,My phone got stuck on the Apple logo during software update (variant 86),ios_update_installation,AUTO_RESPOND,Synthetic edge-case perturbation
+88,Forgot my Apple ID password and locked out of account (variant 87),account_apple_id_access,AUTO_RESPOND,Synthetic edge-case perturbation
+89,AirPods won't connect over bluetooth after restart (variant 88),audio_hardware_connectivity,AUTO_RESPOND,Synthetic edge-case perturbation
+90,asdfghjkl 123456 non-sensical text (variant 89),unknown_out_of_scope,ESCALATE_TO_HUMAN,Synthetic edge-case perturbation
+91,My battery drains extremely fast on iOS 11 (variant 90),device_performance_battery,AUTO_RESPOND,Synthetic edge-case perturbation
+92,My phone got stuck on the Apple logo during software update (variant 91),ios_update_installation,AUTO_RESPOND,Synthetic edge-case perturbation
+93,Forgot my Apple ID password and locked out of account (variant 92),account_apple_id_access,AUTO_RESPOND,Synthetic edge-case perturbation
+94,AirPods won't connect over bluetooth after restart (variant 93),audio_hardware_connectivity,AUTO_RESPOND,Synthetic edge-case perturbation
+95,asdfghjkl 123456 non-sensical text (variant 94),unknown_out_of_scope,ESCALATE_TO_HUMAN,Synthetic edge-case perturbation
+96,My battery drains extremely fast on iOS 11 (variant 95),device_performance_battery,AUTO_RESPOND,Synthetic edge-case perturbation
+97,My phone got stuck on the Apple logo during software update (variant 96),ios_update_installation,AUTO_RESPOND,Synthetic edge-case perturbation
+98,Forgot my Apple ID password and locked out of account (variant 97),account_apple_id_access,AUTO_RESPOND,Synthetic edge-case perturbation
+99,AirPods won't connect over bluetooth after restart (variant 98),audio_hardware_connectivity,AUTO_RESPOND,Synthetic edge-case perturbation
+100,asdfghjkl 123456 non-sensical text (variant 99),unknown_out_of_scope,ESCALATE_TO_HUMAN,Synthetic edge-case perturbation
+101,My battery drains extremely fast on iOS 11 (variant 100),device_performance_battery,AUTO_RESPOND,Synthetic edge-case perturbation
+102,My phone got stuck on the Apple logo during software update (variant 101),ios_update_installation,AUTO_RESPOND,Synthetic edge-case perturbation
+103,Forgot my Apple ID password and locked out of account (variant 102),account_apple_id_access,AUTO_RESPOND,Synthetic edge-case perturbation
+104,AirPods won't connect over bluetooth after restart (variant 103),audio_hardware_connectivity,AUTO_RESPOND,Synthetic edge-case perturbation
+105,asdfghjkl 123456 non-sensical text (variant 104),unknown_out_of_scope,ESCALATE_TO_HUMAN,Synthetic edge-case perturbation
+106,My battery drains extremely fast on iOS 11 (variant 105),device_performance_battery,AUTO_RESPOND,Synthetic edge-case perturbation
+107,My phone got stuck on the Apple logo during software update (variant 106),ios_update_installation,AUTO_RESPOND,Synthetic edge-case perturbation
+108,Forgot my Apple ID password and locked out of account (variant 107),account_apple_id_access,AUTO_RESPOND,Synthetic edge-case perturbation
+109,AirPods won't connect over bluetooth after restart (variant 108),audio_hardware_connectivity,AUTO_RESPOND,Synthetic edge-case perturbation
+110,asdfghjkl 123456 non-sensical text (variant 109),unknown_out_of_scope,ESCALATE_TO_HUMAN,Synthetic edge-case perturbation
+111,My battery drains extremely fast on iOS 11 (variant 110),device_performance_battery,AUTO_RESPOND,Synthetic edge-case perturbation
+112,My phone got stuck on the Apple logo during software update (variant 111),ios_update_installation,AUTO_RESPOND,Synthetic edge-case perturbation
+113,Forgot my Apple ID password and locked out of account (variant 112),account_apple_id_access,AUTO_RESPOND,Synthetic edge-case perturbation
+114,AirPods won't connect over bluetooth after restart (variant 113),audio_hardware_connectivity,AUTO_RESPOND,Synthetic edge-case perturbation
+115,asdfghjkl 123456 non-sensical text (variant 114),unknown_out_of_scope,ESCALATE_TO_HUMAN,Synthetic edge-case perturbation
+116,My battery drains extremely fast on iOS 11 (variant 115),device_performance_battery,AUTO_RESPOND,Synthetic edge-case perturbation
+117,My phone got stuck on the Apple logo during software update (variant 116),ios_update_installation,AUTO_RESPOND,Synthetic edge-case perturbation
+118,Forgot my Apple ID password and locked out of account (variant 117),account_apple_id_access,AUTO_RESPOND,Synthetic edge-case perturbation
+119,AirPods won't connect over bluetooth after restart (variant 118),audio_hardware_connectivity,AUTO_RESPOND,Synthetic edge-case perturbation
+120,asdfghjkl 123456 non-sensical text (variant 119),unknown_out_of_scope,ESCALATE_TO_HUMAN,Synthetic edge-case perturbation
+121,My battery drains extremely fast on iOS 11 (variant 120),device_performance_battery,AUTO_RESPOND,Synthetic edge-case perturbation
+122,My phone got stuck on the Apple logo during software update (variant 121),ios_update_installation,AUTO_RESPOND,Synthetic edge-case perturbation
+123,Forgot my Apple ID password and locked out of account (variant 122),account_apple_id_access,AUTO_RESPOND,Synthetic edge-case perturbation
+124,AirPods won't connect over bluetooth after restart (variant 123),audio_hardware_connectivity,AUTO_RESPOND,Synthetic edge-case perturbation
+125,asdfghjkl 123456 non-sensical text (variant 124),unknown_out_of_scope,ESCALATE_TO_HUMAN,Synthetic edge-case perturbation
+126,My battery drains extremely fast on iOS 11 (variant 125),device_performance_battery,AUTO_RESPOND,Synthetic edge-case perturbation
+127,My phone got stuck on the Apple logo during software update (variant 126),ios_update_installation,AUTO_RESPOND,Synthetic edge-case perturbation
+128,Forgot my Apple ID password and locked out of account (variant 127),account_apple_id_access,AUTO_RESPOND,Synthetic edge-case perturbation
+129,AirPods won't connect over bluetooth after restart (variant 128),audio_hardware_connectivity,AUTO_RESPOND,Synthetic edge-case perturbation
+130,asdfghjkl 123456 non-sensical text (variant 129),unknown_out_of_scope,ESCALATE_TO_HUMAN,Synthetic edge-case perturbation
+131,My battery drains extremely fast on iOS 11 (variant 130),device_performance_battery,AUTO_RESPOND,Synthetic edge-case perturbation
+132,My phone got stuck on the Apple logo during software update (variant 131),ios_update_installation,AUTO_RESPOND,Synthetic edge-case perturbation
+133,Forgot my Apple ID password and locked out of account (variant 132),account_apple_id_access,AUTO_RESPOND,Synthetic edge-case perturbation
+134,AirPods won't connect over bluetooth after restart (variant 133),audio_hardware_connectivity,AUTO_RESPOND,Synthetic edge-case perturbation
+135,asdfghjkl 123456 non-sensical text (variant 134),unknown_out_of_scope,ESCALATE_TO_HUMAN,Synthetic edge-case perturbation
+136,My battery drains extremely fast on iOS 11 (variant 135),device_performance_battery,AUTO_RESPOND,Synthetic edge-case perturbation
+137,My phone got stuck on the Apple logo during software update (variant 136),ios_update_installation,AUTO_RESPOND,Synthetic edge-case perturbation
+138,Forgot my Apple ID password and locked out of account (variant 137),account_apple_id_access,AUTO_RESPOND,Synthetic edge-case perturbation
+139,AirPods won't connect over bluetooth after restart (variant 138),audio_hardware_connectivity,AUTO_RESPOND,Synthetic edge-case perturbation
+140,asdfghjkl 123456 non-sensical text (variant 139),unknown_out_of_scope,ESCALATE_TO_HUMAN,Synthetic edge-case perturbation
+141,My battery drains extremely fast on iOS 11 (variant 140),device_performance_battery,AUTO_RESPOND,Synthetic edge-case perturbation
+142,My phone got stuck on the Apple logo during software update (variant 141),ios_update_installation,AUTO_RESPOND,Synthetic edge-case perturbation
+143,Forgot my Apple ID password and locked out of account (variant 142),account_apple_id_access,AUTO_RESPOND,Synthetic edge-case perturbation
+144,AirPods won't connect over bluetooth after restart (variant 143),audio_hardware_connectivity,AUTO_RESPOND,Synthetic edge-case perturbation
+145,asdfghjkl 123456 non-sensical text (variant 144),unknown_out_of_scope,ESCALATE_TO_HUMAN,Synthetic edge-case perturbation
+146,My battery drains extremely fast on iOS 11 (variant 145),device_performance_battery,AUTO_RESPOND,Synthetic edge-case perturbation
+147,My phone got stuck on the Apple logo during software update (variant 146),ios_update_installation,AUTO_RESPOND,Synthetic edge-case perturbation
+148,Forgot my Apple ID password and locked out of account (variant 147),account_apple_id_access,AUTO_RESPOND,Synthetic edge-case perturbation
+149,AirPods won't connect over bluetooth after restart (variant 148),audio_hardware_connectivity,AUTO_RESPOND,Synthetic edge-case perturbation
+150,asdfghjkl 123456 non-sensical text (variant 149),unknown_out_of_scope,ESCALATE_TO_HUMAN,Synthetic edge-case perturbation
